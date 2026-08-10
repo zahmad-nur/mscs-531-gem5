@@ -1,0 +1,40 @@
+nohup: ignoring input
+[1/24] opLat=1 issueLat=6 threads=1 -> ./coursework/lab6-tlp/results/op1_issue6_t1
+[2/24] opLat=1 issueLat=6 threads=2 -> ./coursework/lab6-tlp/results/op1_issue6_t2
+[3/24] opLat=1 issueLat=6 threads=4 -> ./coursework/lab6-tlp/results/op1_issue6_t4
+[4/24] opLat=1 issueLat=6 threads=8 -> ./coursework/lab6-tlp/results/op1_issue6_t8
+./coursework/lab6-tlp/run_sweep.sh: line 63: 50350 Aborted                 (core dumped) "$GEM5_BIN" --outdir="$OUTDIR" "$CONFIG" --cmd="$DAXPY_BIN" --options="$T $N" --num-cpus="$T" --op-lat="$OP" --issue-lat="$ISSUE" > "$OUTDIR.log" 2>&1
+  !! run failed, see ./coursework/lab6-tlp/results/op1_issue6_t8.log
+[5/24] opLat=2 issueLat=5 threads=1 -> ./coursework/lab6-tlp/results/op2_issue5_t1
+[6/24] opLat=2 issueLat=5 threads=2 -> ./coursework/lab6-tlp/results/op2_issue5_t2
+[7/24] opLat=2 issueLat=5 threads=4 -> ./coursework/lab6-tlp/results/op2_issue5_t4
+[8/24] opLat=2 issueLat=5 threads=8 -> ./coursework/lab6-tlp/results/op2_issue5_t8
+./coursework/lab6-tlp/run_sweep.sh: line 63: 57127 Aborted                 (core dumped) "$GEM5_BIN" --outdir="$OUTDIR" "$CONFIG" --cmd="$DAXPY_BIN" --options="$T $N" --num-cpus="$T" --op-lat="$OP" --issue-lat="$ISSUE" > "$OUTDIR.log" 2>&1
+  !! run failed, see ./coursework/lab6-tlp/results/op2_issue5_t8.log
+[9/24] opLat=3 issueLat=4 threads=1 -> ./coursework/lab6-tlp/results/op3_issue4_t1
+[10/24] opLat=3 issueLat=4 threads=2 -> ./coursework/lab6-tlp/results/op3_issue4_t2
+[11/24] opLat=3 issueLat=4 threads=4 -> ./coursework/lab6-tlp/results/op3_issue4_t4
+[12/24] opLat=3 issueLat=4 threads=8 -> ./coursework/lab6-tlp/results/op3_issue4_t8
+./coursework/lab6-tlp/run_sweep.sh: line 63: 63776 Aborted                 (core dumped) "$GEM5_BIN" --outdir="$OUTDIR" "$CONFIG" --cmd="$DAXPY_BIN" --options="$T $N" --num-cpus="$T" --op-lat="$OP" --issue-lat="$ISSUE" > "$OUTDIR.log" 2>&1
+  !! run failed, see ./coursework/lab6-tlp/results/op3_issue4_t8.log
+[13/24] opLat=4 issueLat=3 threads=1 -> ./coursework/lab6-tlp/results/op4_issue3_t1
+[14/24] opLat=4 issueLat=3 threads=2 -> ./coursework/lab6-tlp/results/op4_issue3_t2
+[15/24] opLat=4 issueLat=3 threads=4 -> ./coursework/lab6-tlp/results/op4_issue3_t4
+[16/24] opLat=4 issueLat=3 threads=8 -> ./coursework/lab6-tlp/results/op4_issue3_t8
+./coursework/lab6-tlp/run_sweep.sh: line 63: 70896 Aborted                 (core dumped) "$GEM5_BIN" --outdir="$OUTDIR" "$CONFIG" --cmd="$DAXPY_BIN" --options="$T $N" --num-cpus="$T" --op-lat="$OP" --issue-lat="$ISSUE" > "$OUTDIR.log" 2>&1
+  !! run failed, see ./coursework/lab6-tlp/results/op4_issue3_t8.log
+[17/24] opLat=5 issueLat=2 threads=1 -> ./coursework/lab6-tlp/results/op5_issue2_t1
+[18/24] opLat=5 issueLat=2 threads=2 -> ./coursework/lab6-tlp/results/op5_issue2_t2
+[19/24] opLat=5 issueLat=2 threads=4 -> ./coursework/lab6-tlp/results/op5_issue2_t4
+[20/24] opLat=5 issueLat=2 threads=8 -> ./coursework/lab6-tlp/results/op5_issue2_t8
+./coursework/lab6-tlp/run_sweep.sh: line 63: 77818 Aborted                 (core dumped) "$GEM5_BIN" --outdir="$OUTDIR" "$CONFIG" --cmd="$DAXPY_BIN" --options="$T $N" --num-cpus="$T" --op-lat="$OP" --issue-lat="$ISSUE" > "$OUTDIR.log" 2>&1
+  !! run failed, see ./coursework/lab6-tlp/results/op5_issue2_t8.log
+[21/24] opLat=6 issueLat=1 threads=1 -> ./coursework/lab6-tlp/results/op6_issue1_t1
+[22/24] opLat=6 issueLat=1 threads=2 -> ./coursework/lab6-tlp/results/op6_issue1_t2
+[23/24] opLat=6 issueLat=1 threads=4 -> ./coursework/lab6-tlp/results/op6_issue1_t4
+[24/24] opLat=6 issueLat=1 threads=8 -> ./coursework/lab6-tlp/results/op6_issue1_t8
+./coursework/lab6-tlp/run_sweep.sh: line 63: 84505 Aborted                 (core dumped) "$GEM5_BIN" --outdir="$OUTDIR" "$CONFIG" --cmd="$DAXPY_BIN" --options="$T $N" --num-cpus="$T" --op-lat="$OP" --issue-lat="$ISSUE" > "$OUTDIR.log" 2>&1
+  !! run failed, see ./coursework/lab6-tlp/results/op6_issue1_t8.log
+
+Sweep complete. Per-run stats in ./coursework/lab6-tlp/results/*/stats.txt
+Next: python3 parse_stats.py ./coursework/lab6-tlp/results --out results.csv

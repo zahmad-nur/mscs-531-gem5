@@ -1,0 +1,137 @@
+warn: Base 10 memory/cache size 2GB will be cast to base 2 size 2GiB.
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+src/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (2048 Mbytes)
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdUnitStrideSegmentedLoad
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdUnitStrideSegmentedStore
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdUnitStrideSegmentedFaultOnlyFirstLoad
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdStrideSegmentedLoad
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdStrideSegmentedStore
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdUnitStrideSegmentedLoad
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdUnitStrideSegmentedStore
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdUnitStrideSegmentedFaultOnlyFirstLoad
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdStrideSegmentedLoad
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdStrideSegmentedStore
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdUnitStrideSegmentedLoad
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdUnitStrideSegmentedStore
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdUnitStrideSegmentedFaultOnlyFirstLoad
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdStrideSegmentedLoad
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdStrideSegmentedStore
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdUnitStrideSegmentedLoad
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdUnitStrideSegmentedStore
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdUnitStrideSegmentedFaultOnlyFirstLoad
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdStrideSegmentedLoad
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdStrideSegmentedStore
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdUnitStrideSegmentedLoad
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdUnitStrideSegmentedStore
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdUnitStrideSegmentedFaultOnlyFirstLoad
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdStrideSegmentedLoad
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdStrideSegmentedStore
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdUnitStrideSegmentedLoad
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdUnitStrideSegmentedStore
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdUnitStrideSegmentedFaultOnlyFirstLoad
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdStrideSegmentedLoad
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdStrideSegmentedStore
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdUnitStrideSegmentedLoad
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdUnitStrideSegmentedStore
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdUnitStrideSegmentedFaultOnlyFirstLoad
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdStrideSegmentedLoad
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdStrideSegmentedStore
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdUnitStrideSegmentedLoad
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdUnitStrideSegmentedStore
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdUnitStrideSegmentedFaultOnlyFirstLoad
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdStrideSegmentedLoad
+src/cpu/minor/execute.cc:164: warn: No functional unit for OpClass SimdStrideSegmentedStore
+src/base/remote_gdb.cc:418: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 25.1.0.1
+gem5 compiled Jul 31 2026 21:20:51
+gem5 started Aug 10 2026 03:19:06
+gem5 executing on codespaces-7a130b, pid 70896
+command line: ./build/X86/gem5.opt --outdir=./coursework/lab6-tlp/results/op4_issue3_t8 ./coursework/lab6-tlp/config_daxpy_tlp.py --cmd=./coursework/lab6-tlp/daxpy_mt '--options=8 1000000' --num-cpus=8 --op-lat=4 --issue-lat=3
+
+info: Standard input is not a terminal, disabling listeners.
+Beginning simulation: opLat=4 issueLat=3 numCPUs=8 cmd=./coursework/lab6-tlp/daxpy_mt options='8 1000000'
+src/sim/syscall_emul.cc:86: warn: ignoring syscall set_robust_list(...)
+src/sim/syscall_emul.cc:86: warn: ignoring syscall rseq(...)
+src/sim/mem_state.cc:443: info: Increasing stack size by one page.
+src/sim/syscall_emul.hh:1127: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/workspaces/codespaces-blank/gem5/coursework/lab6-tlp/daxpy_mt'
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/syscall_emul.cc:97: warn: ignoring syscall rt_sigaction(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.cc:97: warn: ignoring syscall rt_sigprocmask(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/power_state.cc:105: warn: PowerState: Already in the requested power state, request ignored
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/syscall_emul.cc:86: warn: ignoring syscall rseq(...)
+src/sim/syscall_emul.cc:86: warn: ignoring syscall set_robust_list(...)
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/syscall_emul.cc:86: warn: ignoring syscall rseq(...)
+src/sim/syscall_emul.cc:86: warn: ignoring syscall set_robust_list(...)
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/syscall_emul.cc:86: warn: ignoring syscall rseq(...)
+src/sim/syscall_emul.cc:86: warn: ignoring syscall set_robust_list(...)
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/syscall_emul.cc:86: warn: ignoring syscall rseq(...)
+src/sim/syscall_emul.cc:86: warn: ignoring syscall set_robust_list(...)
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/syscall_emul.cc:86: warn: ignoring syscall rseq(...)
+src/sim/syscall_emul.cc:86: warn: ignoring syscall set_robust_list(...)
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/syscall_emul.cc:86: warn: ignoring syscall rseq(...)
+src/sim/syscall_emul.cc:86: warn: ignoring syscall set_robust_list(...)
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+src/sim/syscall_emul.cc:86: warn: ignoring syscall rseq(...)
+src/sim/syscall_emul.cc:86: warn: ignoring syscall set_robust_list(...)
+src/sim/syscall_emul.cc:86: warn: ignoring syscall madvise(...)
+src/sim/syscall_emul.cc:86: warn: ignoring syscall madvise(...)
+src/sim/syscall_emul.cc:86: warn: ignoring syscall madvise(...)
+src/sim/syscall_emul.cc:86: warn: ignoring syscall madvise(...)
+src/sim/syscall_emul.cc:86: warn: ignoring syscall madvise(...)
+src/sim/syscall_emul.cc:86: warn: ignoring syscall madvise(...)
+src/sim/syscall_emul.cc:86: warn: ignoring syscall madvise(...)
+src/arch/x86/faults.cc:166: panic: Tried to read unmapped address 0x7ffff38b3990.
+PC: (0x40defd=>0x40df03).(0=>1), Instr:   MOV_R_M : ld   eax, DS:[rdi + 0x2d0]
+Memory Usage: 2250668 KBytes
+Program aborted at tick 244755979500
+--- BEGIN LIBC BACKTRACE ---
+./build/X86/gem5.opt(_ZN4gem515print_backtraceEv+0x30)[0x569cb46f4280]
+./build/X86/gem5.opt(_ZN4gem512abortHandlerEi+0x4c)[0x569cb471dddc]
+/lib/x86_64-linux-gnu/libc.so.6(+0x45330)[0x793abe904330]
+/lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x11c)[0x793abe95db2c]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x1e)[0x793abe90427e]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0xdf)[0x793abe8e78ff]
+./build/X86/gem5.opt(+0xc57e75)[0x569cb4310e75]
+./build/X86/gem5.opt(_ZN4gem56X86ISA9PageFault6invokeEPNS_13ThreadContextERKNS_14RefCountingPtrINS_10StaticInstEEE+0x1b1)[0x569cb5059411]
+./build/X86/gem5.opt(_ZN4gem55minor7Execute17handleMemResponseENS_14RefCountingPtrINS0_12MinorDynInstEEEPNS0_3LSQ10LSQRequestERNS0_10BranchDataERSt10shared_ptrINS_9FaultBaseEE+0x337)[0x569cb5c0cd57]
+./build/X86/gem5.opt(_ZN4gem55minor7Execute6commitEsbbRNS0_10BranchDataE+0x1a03)[0x569cb5c10ef3]
+./build/X86/gem5.opt(_ZN4gem55minor7Execute8evaluateEv+0x911)[0x569cb5c14111]
+./build/X86/gem5.opt(_ZN4gem55minor8Pipeline8evaluateEv+0x1f8)[0x569cb5c50a48]
+./build/X86/gem5.opt(+0x1084b27)[0x569cb473db27]
+./build/X86/gem5.opt(_ZN4gem510EventQueue10serviceOneEv+0xb7)[0x569cb470b8b7]
+./build/X86/gem5.opt(_ZN4gem59doSimLoopEPNS_10EventQueueE+0x70)[0x569cb4740dd0]
+./build/X86/gem5.opt(_ZN4gem58simulateEm+0x25e)[0x569cb474156e]
+./build/X86/gem5.opt(+0x20acea2)[0x569cb5765ea2]
+./build/X86/gem5.opt(+0xc6dfca)[0x569cb4326fca]
+./build/X86/gem5.opt(+0x27a6d13)[0x569cb5e5fd13]
+./build/X86/gem5.opt(PyObject_Call+0x7f)[0x569cb5e05c0f]
+./build/X86/gem5.opt(_PyEval_EvalFrameDefault+0x8cb)[0x569cb42f89cb]
+./build/X86/gem5.opt(PyEval_EvalCode+0x20f)[0x569cb5ef3faf]
+./build/X86/gem5.opt(+0x2837130)[0x569cb5ef0130]
+./build/X86/gem5.opt(+0x27a72c3)[0x569cb5e602c3]
+./build/X86/gem5.opt(PyObject_Vectorcall+0x34)[0x569cb5e03654]
+./build/X86/gem5.opt(_PyEval_EvalFrameDefault+0x3e40)[0x569cb42fbf40]
+./build/X86/gem5.opt(+0x106acd9)[0x569cb4723cd9]
+./build/X86/gem5.opt(main+0x218)[0x569cb429a3a8]
+/lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x793abe8e91ca]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x793abe8e928b]
+./build/X86/gem5.opt(_start+0x25)[0x569cb43048d5]
+--- END LIBC BACKTRACE ---
+For more info on how to address this issue, please visit https://www.gem5.org/documentation/general_docs/common-errors/ 
+
